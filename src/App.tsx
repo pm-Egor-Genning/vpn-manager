@@ -10,9 +10,8 @@ const App: React.FC = () => {
   return (
     <Provider store={store}>
       <div className="App">
-        <div id="dialog-container"/>
         <Router>
-          <Route exact path="/" component={Home}/>
+          <Route path="/" component={Home}/>
           <Route path="/add" component={OverlayDialog}/>
         </Router>
       </div>
