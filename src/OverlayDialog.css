@@ -1,0 +1,35 @@
+
+.overlay {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.modal {
+  position: absolute;
+  border: 1px solid black;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.52);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.52);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.52);
+  background: #ffffff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: #e2e2e2;
+  font-weight: bold;
+  padding: 3px;
+}
+
+.close {
+  display: inline-block;
+}
+
+.modal-body {
+  paddding: 5px;
+}
